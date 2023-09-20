@@ -48,7 +48,6 @@ function App() {
               <div key={item.id} className="w-5/6 bg-blue-900 mt-3 flex items-center justify-between p-3 rounded-xl mx-auto">
                 <h1 className="text-xl text-white">{item.value}</h1>
                 <div>
-                  <button onClick={() => handleComplete(item.id)}><FaCheck size={32} color="green" /></button>
                   <button onClick={() => handleDelete(item.id)}><FaTrashCan size={32} color="red"/></button>
                 </div>
 
